@@ -1,12 +1,10 @@
 # PROYECTO de paginación con DB JSON
 
 El proyécto consiste en crear una seccicón de productos de un eccomerce con paginación.
-La pagina debe poder filtrar entre productos y paginár entre 3 paginas, ademas debe haber un boton
-de agregar vehiculo para que el "admin" tenga la posibilidad de agregar items.
+La pagina debe poder paginár entre 3 paginas, ademas debe haber un boton.
 
 ## Requisitos
 - Opción de paginación de 3 paginas
-- Opciones de filtrado por (km, condicion)
 - Las imagenes y datos deben ser dinamicos traidos de un archivo .JSON.
 - Añadir paginación traida de Boostrap.
 
@@ -22,6 +20,3 @@ de agregar vehiculo para que el "admin" tenga la posibilidad de agregar items.
 
 ## Estructura HTML
 En la parte de los items, el container debe ser display Flex y el item-container en donde estaran los items, debe ser hecha con grid. Debabjo del item-container iran las opciones de paginacion.
-
-Del lado izquierdo del contenedor de items, ira la seccion de filtros. Esta seccion debe ser sencilla. Debe
-contar con un filtrador por Kilometraje y por condicion. Ademas debe tener un boton de filtrar y limpiar filtros.
